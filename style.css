@@ -13,14 +13,14 @@ body {
     text-shadow: 0 0 1px #000, 0 0 2px #000;
     font-family: 'Open Sans';
     font-weight: 700;
-    font-size: {font_size};
-    line-height: 1.5em;
-    color: {text_color};
+    font-size: 80px};
+    line-height: 1.2em;
+    color: #FAFAFA;
 }
 
 #log>div {
-    animation: fadeInRight 0.75s ease forwards, fadeOutLeft 1s ease 10s forwards;
-    -webkit-animation: fadeInRight 0.75s ease forwards, fadeOutLeft 1s ease 10s forwards;
+    animation: fadeInRight 0.75s ease forwards, fadeOutLeft 1s ease 10000s forwards;
+    -webkit-animation: fadeInRight 0.75s ease forwards, fadeOutLeft 1s ease 10000s forwards;
     margin-bottom: 5px;
 }
 
@@ -83,21 +83,31 @@ body {
     height: 1em;
     vertical-align: middle;
     top: -0.1em;
+    filter: opacity(80%);
 }
 
 .name {
-    
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
 }
 
 .upper {
+  display: flex;
   background-color: rgba(255,194,194,0.7);
   border-radius: 10px 10px 0 0;
-  padding: 5px;
+  padding: 5px 30px 5px 30px;
 }
 
 .bottom {
+  display: flex;
   background-color: rgba(255,235,235,0.7);
   border-radius: 0 0 10px 10px;
-  padding: 5px;
+  padding: 5px 30px 5px 30px;
   margin-bottom: 5px;
+}
+
+.message {
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
