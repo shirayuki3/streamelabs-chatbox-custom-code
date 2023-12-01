@@ -17,8 +17,8 @@ body {
 }
 
 #log>div {
-    animation: fadeInRight 0.75s ease forwards, fadeOutLeft 1s ease 10000s forwards;
-    -webkit-animation: fadeInRight 0.75s ease forwards, fadeOutLeft 1s ease 10000s forwards;
+    animation: fadeInRight 0.75s ease forwards, fadeOutLeft 1s ease 10s forwards;
+    -webkit-animation: fadeInRight 0.75s ease forwards, fadeOutLeft 1s ease 10s forwards;
     margin-bottom: 5px;
 }
 
@@ -36,13 +36,8 @@ body {
     width: 100%;
 }
 
-#log>div:nth-last-child(-n + 2)  {
-  opacity: 1 !important;
-}
-
 #log>div {
     display: table-row;
-    opacity: 0.5 !important;
 }
 
 #log>div.deleted {
