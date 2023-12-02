@@ -1,5 +1,4 @@
 # streamelabs-chatbox-custom-css
 Streamelabsのチャットボックスで使用するHTMLとCSSです。自分用に作成しました。
 
-https://github.com/shirayuki3/streamelabs-chatbox-custom-css/assets/142776366/86fa3e79-449e-4fe8-b548-2fe24f2a3128
-
+https://github.com/shirayuki3/streamelabs-chatbox-custom-code/assets/142776366/c50845a9-711a-4601-b37b-189056854d80
